@@ -1,1 +1,1 @@
-from .trait import Trait
+from .interface import Interface

@@ -1,7 +1,7 @@
 import inspect
 
 
-class Trait(type):
+class Interface(type):
     """A class that cannot be inherited but that can be a superclass using the __subclasscheck__ dundler method."""
 
     def __new__(cls, name, bases, kwargs):
